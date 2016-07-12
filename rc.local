@@ -8,7 +8,7 @@
 #
 # In order to enable or disable this script just change the execution
 # bits.
-# 
+#
 # By default this script does nothing.
 
 lircd --driver=srm7500libusb /etc/lirc/philips-srm-7500-lircd.conf --device=macShortAddress=12:34,remoteShortAddress=56:78,macPANId=9a:bc
