@@ -2,7 +2,7 @@
 Lircmap.xml for Philips SRM7500 Remote
 VERSION 1.2 by Matis - https://github.com/Matis253/SRM7500-kodi
 -->
- 
+
 <lircmap>
     <remote device="SRM-7500">
         <power>KEY_POWER</power>
