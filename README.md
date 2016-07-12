@@ -1,7 +1,7 @@
-# RF Remote Philips SRM7500 for KODI (especially OSMC)
-Configuration, Lircmap, keymap for RF Philips SRM-7500 Remote especially for OSMC
+# RF Remote Philips SRM7500 for KODI
+Configuration, Lircmap, keymap for RF Philips SRM-7500 Remote especially for **OSMC**
 
-![](https://raw.githubusercontent.com/Matis253/SRM7500-kodi/master/SRM7500.jpg)
+![Photo of the SRM-7500](https://raw.githubusercontent.com/Matis253/SRM7500-kodi/master/SRM7500.jpg)
 
 ###About
 Hello, I have a RF remote Philips SRM-7500 and I use a OSMC system. Previous version of lirc.conf, lircmap.xml was too old to work well.
@@ -10,3 +10,5 @@ So I decided to rewrite form zero these configurations, and make a tutorial for 
 All 46 buttons on the remote is working, and a longpress function.
 
 ##Instalation
+
+%WORK IN PROGRESS
