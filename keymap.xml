@@ -1,0 +1,15 @@
+<!-- 
+keymap.xml for Philips SRM7500 Remote
+VERSION 1.2 by Matis - https://github.com/Matis253/SRM7500-kodi
+-->
+
+<keymap>
+  <global>
+    <remote>
+      <select>Select</select>
+      <example>example</example>
+      <button mod="longpress">action</button>
+      #WORK IN PROGRESS, do not download
+    </remote>
+  </global>
+</keymap>
