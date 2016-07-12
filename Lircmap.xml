@@ -1,0 +1,55 @@
+<!-- 
+Lircmap.xml for Philips SRM7500 Remote
+VERSION 1.2 by Matis - https://github.com/Matis253
+-->
+
+<lircmap>
+    <remote device="SRM-7500">
+        <power>KEY_POWER</power>
+        <back>KEY_BACK</back>
+        <info>KEY_MORE</info>
+        <select>KEY_OK</select>
+        <up>KEY_UP</up>
+        <down>KEY_DOWN</down>
+        <left>KEY_LEFT</left>
+        <right>KEY_RIGHT</right>
+        <volumeplus>KEY_VOLUMEUP</volumeplus>
+        <volumeminus>KEY_VOLUMEDOWN</volumeminus>
+        <mute>KEY_MUTE</mute>
+        <pageplus>KEY_CHANNELUP</pageplus>
+        <pageminus>KEY_CHANNELDOWN</pageminus>
+        <start>KEY_WINDOWS</start>
+        <play>KEY_PLAY</play>
+        <pause>KEY_PAUSE</pause>
+        <stop>KEY_STOP</stop>
+        <record>KEY_RECORD</record>
+        <reverse>KEY_REWIND</reverse>
+        <forward>KEY_FORWARD</forward>
+        <skipminus>KEY_PREVIOUS</skipminus>
+        <skipplus>KEY_NEXT</skipplus>
+        <guide>KEY_GUIDE</guide>
+        <livetv>KEY_LIVETV</livetv>
+        <recordedtv>KEY_RECTV</recordedtv>
+        <playdvd>KEY_DVD</playdvd>
+        <zero>KEY_0</zero>
+        <one>KEY_1</one>
+        <two>KEY_2</two>
+        <three>KEY_3</three>
+        <four>KEY_4</four>
+        <five>KEY_5</five>
+        <six>KEY_6</six>
+        <seven>KEY_7</seven>
+        <eight>KEY_8</eight>
+        <nine>KEY_9</nine>
+        <star>KEY_STAR</star>
+        <hash>KEY_HASH</hash>
+        <teletext>KEY_TEXT</teletext>
+        <clear>KEY_CLEAR</clear>
+        <enter>KEY_ENTER</enter>
+        <aspectratio>KEY_SCREEN</aspectratio>
+        <red>KEY_RED</red>
+        <green>KEY_GREEN</green>
+        <yellow>KEY_YELLOW</yellow>
+        <blue>KEY_BLUE</blue>
+    </remote>
+</lircmap>
