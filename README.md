@@ -1,4 +1,4 @@
-# RF Remote Philips SRM7500 for KODI
+#RF Remote Philips SRM7500 for KODI
 Configuration, Lircmap, keymap for RF Philips SRM-7500 Remote especially for **OSMC**
 
 ![Photo of the SRM-7500](https://raw.githubusercontent.com/Matis253/SRM7500-kodi/master/SRM7500.jpg)
