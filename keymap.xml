@@ -6,10 +6,9 @@ VERSION 1.2 by Matis - https://github.com/Matis253/SRM7500-kodi
 <keymap>
   <global>
     <remote>
-      <select>Select</select>
-      <example>example</example>
-      <button mod="longpress">action</button>
-      #WORK IN PROGRESS, do not download
+      <select>select</select>
+      <info mod="longpress">codecinfo</info>
+      <select mod="longpress">contextmenu</select>
     </remote>
   </global>
 </keymap>
