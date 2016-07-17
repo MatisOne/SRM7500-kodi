@@ -6,9 +6,12 @@ VERSION 1.2 by Matis - https://github.com/Matis253/SRM7500-kodi
 <keymap>
   <global>
     <remote>
-      <select>select</select>
-      <info mod="longpress">codecinfo</info>
-      <select mod="longpress">contextmenu</select>
+      <playdvd>contextmenu</playdvd>
+      <red>title</red>
+      <green>chapter</green>
+      <yellow>subtitles</yellow>
+      <blue>audio</blue>
+      <WORKINPROGRESS>Please don't download this now</WORKINPROGRESS>
     </remote>
   </global>
 </keymap>
