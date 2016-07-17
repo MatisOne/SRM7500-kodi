@@ -1,27 +1,27 @@
-# Philips SRM-7500 RF informations for use with the srm7500libusb driver
-#
-# The remote and the dongle communicate with each other over ieee 802.15.4
-# a few extra network parameters are needed (via lircd's --device option).
-#
-# lircd --driver=srm7500libusb /etc/lirc/philips-srm-7500-lircd.conf --device=macShortAddress=12:34,remoteShortAddress=56:78,macPANId=9a:bc
-#
-# explanation:
-#   mandatory parameters:
-#     macShortAddress:       802.15.4 short address (2 byte hex)
-#                            to be assigned to the receiver
-#     remoteShortAddress:    802.15.4 short address (2 byte hex)
-#                            to be assigned to the remote
-#     macPANId:              802.15.4 numeric network id (2 byte hex)
-#   optional parameters:
-#     remoteExtendedAddress: 802.15.4 extended address (8 byte hex)
-#                            of the remote. when given, ignores all other
-#                            802.15.4 rf communication. lircd writes your
-#                            remotes address to the logs when pairing
-#     macBeaconPayload:      802.15.4 network name  (ASCII string)
-#                            defaults to PHILIPS+your hostname. remote will not
-#                            pair unless it starts with PHILIPS.
-#     LogicalChannel:        802.15.4 channel number (1 byte hex)
-#                            defaults to 19
-#                            other channels than 19 do not work on my remote
-#     usb:                   USB bus and device number (2 integer decimal)
-#                            bind to a specific USB device, e.g. 003:002
+ Philips SRM-7500 RF informations for use with the srm7500libusb driver
+
+ The remote and the dongle communicate with each other over ieee 802.15.4
+ a few extra network parameters are needed (via lircd's --device option).
+
+ lircd --driver=srm7500libusb /etc/lirc/philips-srm-7500-lircd.conf --device=macShortAddress=12:34,remoteShortAddress=56:78,macPANId=9a:bc
+
+ explanation:
+   mandatory parameters:
+     macShortAddress:       802.15.4 short address (2 byte hex)
+                            to be assigned to the receiver
+     remoteShortAddress:    802.15.4 short address (2 byte hex)
+                            to be assigned to the remote
+     macPANId:              802.15.4 numeric network id (2 byte hex)
+   optional parameters:
+     remoteExtendedAddress: 802.15.4 extended address (8 byte hex)
+                            of the remote. when given, ignores all other
+                            802.15.4 rf communication. lircd writes your
+                            remotes address to the logs when pairing
+     macBeaconPayload:      802.15.4 network name  (ASCII string)
+                            defaults to PHILIPS+your hostname. remote will not
+                            pair unless it starts with PHILIPS.
+     LogicalChannel:        802.15.4 channel number (1 byte hex)
+                            defaults to 19
+                            other channels than 19 do not work on my remote
+     usb:                   USB bus and device number (2 integer decimal)
+                            bind to a specific USB device, e.g. 003:002
