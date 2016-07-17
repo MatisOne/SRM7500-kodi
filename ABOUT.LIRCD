@@ -1,7 +1,7 @@
  Philips SRM-7500 RF informations for use with the srm7500libusb driver
 
  The remote and the dongle communicate with each other over ieee 802.15.4
- a few extra network parameters are needed (via lircd's --device option).
+ a few extra network parameters are needed (via lircd's --device option)
 
  lircd --driver=srm7500libusb /etc/lirc/philips-srm-7500-lircd.conf --device=macShortAddress=12:34,remoteShortAddress=56:78,macPANId=9a:bc
 
