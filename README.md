@@ -54,3 +54,16 @@ If you want to change some buttons, you can make a keymap.
 I make some changes to buttons, because I don't use a teletext, and I make other functions here.
 If you want to look at my changes go [there](https://github.com/Matis253/SRM7500-kodi/blob/master/keymap.xml)
 Tutorial is [here](#)
+
+
+##Working and not working
+
+WORKING:
+  - pairing
+  - reception of all keypresses
+
+NOT WORKING: (and never will work)
+  - RF settings in setup menu - signal strength monitoring  http://imgur.com/UKGmtYB
+  - MUSIC button - displaying infos on the remote's display http://imgur.com/ZMiOtPO
+
+  - longpress (this can work, but for now not, more in [Issues](https://github.com/Matis253/SRM7500-kodi/issues/1) tab)
