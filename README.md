@@ -25,12 +25,13 @@ The fist part is to make start lirc when the system is starting.
 3. Paste this
   * "lircd --driver=srm7500libusb /etc/lirc/philips-srm-7500-lircd.conf --device=macShortAddress=12:34,remoteShortAddress=56:78,macPANId=9a:bc"
     * before exit 0. This will look like [this](https://github.com/Matis253/SRM7500-kodi/blob/master/rc.local)
+    * Informations what this command do: [here](https://github.com/Matis253/SRM7500-kodi/blob/master/ABOUT.LIRCD)
 4. DONE
 
-The second part is to download the new (my) config.
+The second part is to download the new config.
 
 0. Connect via PuTTY to your KODI system.
-1. Go to the folder /etc/lirc (before type "cd" to be sure you are in home folder)
+1. Go to the folder /etc/lirc (before that, type "cd" to be sure you are in home folder)
   * cd /etc/lirc/
 2.  Remove the default config if exist 
   * sudo rm philips-srm-7500-lircd.conf
@@ -41,8 +42,15 @@ The second part is to download the new (my) config.
 The last part is to download the Lircmap.xml to the kodi folder.
 
 0. Connect via PuTTY to your KODI system.
-1. Go to folder .kodi/userdata (before type "cd" to be sure you are in home folder)
+1. Go to folder .kodi/userdata (before that, type "cd" to be sure you are in home folder)
   * cd .kodi/userdata/
 2. Download the new Lircmap
   * wget https://raw.githubusercontent.com/Matis253/SRM7500-kodi/master/Lircmap.xml
 3. DONE
+
+Now you can reboot the system. And it works.
+
+If you want to change some buttons, you can make a keymap.
+I make some changes to buttons, because I don't use a teletext, and I make other functions here.
+If you want to look at my changes go [there](https://github.com/Matis253/SRM7500-kodi/blob/master/keymap.xml)
+Tutorial is [here](#)
