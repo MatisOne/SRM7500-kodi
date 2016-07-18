@@ -53,7 +53,7 @@ Now you can reboot the system. And it works.
 If you want to change some buttons, you can make a keymap.
 I make some changes to buttons, because I don't use a teletext, and I make other functions here.
 If you want to look at my changes go [there](https://github.com/Matis253/SRM7500-kodi/blob/master/keymap.xml)
-Tutorial is [here](#)
+Tutorial is [here](https://github.com/Matis253/SRM7500-kodi/blob/master/ABOUT-KEYMAP.md)
 
 
 ##Working and not working
