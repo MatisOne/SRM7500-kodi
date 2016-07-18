@@ -25,7 +25,7 @@ The fist part is to make start lirc when the system is starting.
 3. Paste this
   * `lircd --driver=srm7500libusb /etc/lirc/philips-srm-7500-lircd.conf --device=macShortAddress=12:34,remoteShortAddress=56:78,macPANId=9a:bc`
     * before exit 0. This will look like [this](https://github.com/Matis253/SRM7500-kodi/blob/master/rc.local)
-    * Informations what this command do: [here](https://github.com/Matis253/SRM7500-kodi/blob/master/ABOUT.LIRCD)
+    * Informations what this command do: [here](https://github.com/Matis253/SRM7500-kodi/blob/master/ABOUT-LIRCD)
 4. DONE
 
 The second part is to download the new config.
