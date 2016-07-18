@@ -66,4 +66,4 @@ NOT WORKING: (and never will work)
   - RF settings in setup menu - signal strength monitoring  http://imgur.com/UKGmtYB
   - MUSIC button - displaying infos on the remote's display http://imgur.com/ZMiOtPO
 
-  - longpress (this can work, but for now not, more in [Issues](https://github.com/Matis253/SRM7500-kodi/issues/1) tab)
+  - longpress (this can work, but not for now, more in [Issues](https://github.com/Matis253/SRM7500-kodi/issues/1) tab)
