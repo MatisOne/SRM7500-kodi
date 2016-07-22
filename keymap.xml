@@ -6,12 +6,21 @@ VERSION 1.2 by Matis - https://github.com/Matis253/SRM7500-kodi
 <keymap>
   <global>
     <remote>
+      <!-- The Main Features -->
       <playdvd>contextmenu</playdvd>
+      <!-- The Lowest Buttons -->
       <red>title</red>
       <green>chapter</green>
       <yellow>subtitles</yellow>
       <blue>audio</blue>
-      <WORKINPROGRESS>Please don't download this now</WORKINPROGRESS>
     </remote>
   </global>
+  <pvrosdteletext>
+    <remote>
+      <red>red</red>
+      <green>green</green>
+      <yellow>yellow</yellow>
+      <blue>blue</blue>
+    </remote>
+  </pvrosdteletext>
 </keymap>
