@@ -8,11 +8,12 @@ VERSION 1.2 by Matis - https://github.com/Matis253/SRM7500-kodi
     <remote>
       <!-- The Main Features -->
       <playdvd>contextmenu</playdvd>
+      <power>shutdownmenu</power>
       <!-- The Lowest Buttons -->
-      <red>title</red>
-      <green>chapter</green>
-      <yellow>subtitles</yellow>
-      <blue>audio</blue>
+      <red>seek(-100000)</red>
+      <green>videobookmarks</green>
+      <yellow>activatewindow(osdvideosettings)</yellow>
+      <blue>activatewindow(osdaudiosettings)</blue>
     </remote>
   </global>
   <pvrosdteletext>
